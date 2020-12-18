@@ -1,5 +1,4 @@
-"use strict"
-export {createLinkedList};
+// "use strict"
 class Node {
     constructor(data, next = null) {
         this.data = data,
@@ -90,12 +89,4 @@ class LinkedList {
     }
 }
 
-function createLinkedList(arr) {
-    let i = 0;
-    let list = new LinkedList();
-    while (arr[i]) {
-        list.add(arr[i]);
-        i++;
-    }
-    return list;
-}
+// export {LinkedList};
